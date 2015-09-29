@@ -7,10 +7,9 @@ import java.util.Scanner;
 public class CalculatorSpecial{ 
     public static void main(String[] args){
      Scanner myScanner = new Scanner ( System.in );
-     System.out.println ("Welcome to the Special Calculator Program"); 
+     System.out.println ("Welcome to the Special Calculator Program"); // welcome message
      
      boolean stop = true; 
-  
      while(stop==true){ 
      
      System.out.print ("Please enter your first number :"); 
@@ -42,8 +41,6 @@ public class CalculatorSpecial{
         System.out.println("Illegal Operation"); 
         break; 
      }
-
-        
         System.out.print ("Type 'n' or 'N' to stop."); 
         String stoper = myScanner.next();
         String n = "n";
