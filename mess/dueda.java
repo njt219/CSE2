@@ -1,25 +1,18 @@
 import java.util.Scanner;
 public class dueda{
+    
     public static void main (String[] args){
     Scanner myScanner = new Scanner  (System.in); 
-    System.out.println("Welcome to the guessing game"); 
-    double x = 75; 
-    System.out.print("Please enter a number between 1-100: "); 
-    double guess_1 = myScanner.nextDouble();
-    boolean win = false; 
-    while (win==false) {
-        if (guess_1 == x){
-        System.out.println("You guessed it!");
+    System.out.println("Please enter a number : "); 
+    double number = myScanner.nextDouble(); 
+    while ( number == number)
+    {
+        
+        if ( number%5 == 0 ){
         break; 
         }
-            else if(guess_1 < x) {
-            System.out.println("Your guess is less than the number.");
-            break;
-        }
-                else if(guess_1 > x) {
-                System.out.println("Your guess is greater than the number.");
-                break;
-        }
+    System.out.println("Please enter a number : "); 
+    number = myScanner.nextInt(); 
     }
     }
 }
