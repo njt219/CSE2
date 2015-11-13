@@ -19,6 +19,17 @@ public class Methods{
         }
         y+=x;
         }
+        public static double mean(double x, double total){
+            double total_mean = total / 10; 
+            return total_mean; 
+        }
+        public static double median(double x, double y){
+            double med = total / 2;
+            return median 
+        }
+        }
+            
+        }
     }
 }
 
